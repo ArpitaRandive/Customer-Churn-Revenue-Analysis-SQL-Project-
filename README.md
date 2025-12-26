@@ -17,42 +17,26 @@ customer_id (PK)
 customer_name
 signup_date
 
-products
-
+## Products
 product_id (PK)
-
 product_name
-
 category
-
 price
 
-orders
-
+## Orders
 order_id (PK)
-
 customer_id (FK)
-
 order_date
-
 status
 
-order_items
-
+## Order_items
 order_item_id (PK)
-
 order_id (FK)
-
 product_id (FK)
-
 quantity
-
 price
 
-Relationships:
-
+## Relationships:
 customers → orders (one-to-many)
-
 orders → order_items (one-to-many)
-
 products → order_items (one-to-many)
