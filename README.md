@@ -137,9 +137,4 @@ This project reflects real-world scenarios commonly encountered in data analyst 
 ## Notes
 -   SQL queries are maintained in separate files for clarity and modularity
 -   The project is intentionally structured to prioritize analytical reasoning over tooling
-price
 
-## Relationships:
-customers → orders (one-to-many)
-orders → order_items (one-to-many)
-products → order_items (one-to-many)
